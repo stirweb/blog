@@ -1,0 +1,86 @@
+footer {
+  padding: 2rem 1.5em;
+  margin-top: 0;
+  background-color: #333;
+  color: #fff;
+
+  .cell {
+    border-top: 1px solid #787676;
+    padding: 30px 0;
+
+    .widget {
+
+      h3{
+        font-size: 1.25rem;
+        margin: 0 0 1rem 0;
+      }
+
+      ul{
+        list-style: disc;
+      }
+      
+      .wp-block-search__label {
+        color: #fff;
+        ;
+      }
+    }
+
+    a {
+      color: #fff;
+
+      &:hover{
+        color: #c0e1d1;
+      }
+    }
+  }
+
+}
+
+/* 
+  Large up 
+  
+*/
+@media (min-width: 1024px) {
+  footer>div {
+    max-width: 80rem;
+    margin: 2rem auto;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    .widget {}
+  }
+
+}
+
+
+.creditline {
+  background-color: #111;
+  color: #fff;
+  padding: 1rem;
+
+  p {
+    max-width: 80rem;
+    margin: 0 auto;
+    margin-bottom: 0;
+  }
+
+  a {
+    color: #fff;
+  }
+}
+
+// .c-scroll-to-top {
+//   position: fixed;
+//   bottom: -30px;
+//   right: 30px;
+//   height: 50px;
+//   width: 50px;
+//   background-color: rgba(0, 105, 56, 0.9);
+//   color: #fefefe;
+//   font-size: 24px;
+//   opacity: 0;
+//   pointer-events: none;
+//   border: 1px solid #fff;
+//   z-index: 10;
+// }
