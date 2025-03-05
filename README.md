@@ -44,9 +44,6 @@ a stand alone theme with branded header and footer with basic post styling.
 
 ## Installing the theme
 
-1. `cd wp-content/themes`
-2. `git clone https://gitlab.com/stiracuk/wp-theme-uos.git`
-
 Activate the Theme through the 'Themes' menu in WordPress or create a child theme.
 
 ## Required plugins
