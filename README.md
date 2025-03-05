@@ -1,4 +1,4 @@
-# blog
+# Blog
 
 New theme environment for University of Stirling Blog Version 2.0.0
 
