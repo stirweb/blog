@@ -11,7 +11,7 @@ uses NPM for dependency management and asset compilation.
 First time only, install dependencies:
 
 ```
-cd Documents/Stirling/wp-theme-uos-2/wp-theme-uos-2
+cd Documents/Stirling/blog/blog
 npm install
 ```
 
@@ -21,7 +21,7 @@ Changes will be overwritten when next compiled.
 Now that dependencies have been install, to edit styles and javascript, run:
 
 ```
-cd Documents/Stirling/wp-theme-uos-2/wp-theme-uos-2
+cd Documents/Stirling/blog/blog
 npm run dev
 ```
 
